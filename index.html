@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <aside class="sidebar">
+            <div class="sidebar__top-header">
+                <img src="./assets/icons/logo.svg" alt="logo">
+                <button class="top-header__btn">
+                    <img src="./assets/icons/logo-arrow.svg" alt="">
+                </button>
+            </div>
+            <input type="text" class="form-control  sidebar__input" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1">
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button d-flex  gap-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="bi bi-house-fill"></i> Dashboard
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <ul class="menus">
+                            <li class="menus__menu">
+                                <a class="link" href="#">All pages</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Reports</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Products</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Tasks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button d-flex  gap-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="bi bi-star-fill"></i> Features
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <ul class="menus">
+                            <li class="menus__menu">
+                                <a class="link" href="#">All pages</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Reports</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Products</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Tasks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button d-flex  gap-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="bi bi-person-fill"></i> Users
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <ul class="menus">
+                            <li class="menus__menu">
+                                <a class="link" href="#">All pages</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Reports</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Products</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Tasks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button d-flex  gap-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="bi bi-currency-dollar"></i> Pricing
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <ul class="menus">
+                            <li class="menus__menu">
+                                <a class="link" href="#">All pages</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Reports</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Products</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Tasks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button d-flex  gap-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                            <img src="./assets/Custome Icon/Integrations Icon.svg" alt=""> Integrations
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <ul class="menus">
+                            <li class="menus__menu">
+                                <a class="link" href="#">All pages</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Reports</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Products</a>
+                            </li>
+                            <li class="menus__menu">
+                                <a class="link" href="#">Tasks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div tabindex="0" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content-id="popover-content" class=" settings d-flex justify-content-between align-items-center border rounded-3 p-3">
+                <div class="d-flex align-items-center gap-2 ">
+                    <i class="bi bi-gear-fill"></i><span>Settings</span>
+                </div>
+                <i class="bi bi-caret-right-fill"></i>
+            </div>
+            <div id="popover-content" class="d-none popover-content">
+                <div class="content">
+                <a class="popover-content__link" href="">Home</a>
+                <a class="popover-content__link" href="">Setitings</a>
+                </div>
+            </div>
+
+        </aside>
+        <main class="main">
+            <div class="main-top">
+                <div>
+                   <p class="main-top__title">Welcome back, John</p>
+                   <p class="main-top__description">Measure your advertising ROI and report website traffic.</p>
+                </div>
+                <div >
+                    <button type="button" class="btn btn-light">Export data <img class="btn__img" src="./assets/Custome Icon/Custome Icon/Export Icon.svg" alt="export"></button>
+                    <button type="button" class="btn btn-info">Creat report</button>
+                </div>
+            </div>
+
+            <div class="main-cards">
+                <div class="main-cards__card">
+                   <div class="card__top">
+                    <div class="card__left">
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="card__label">Pageviews</span>
+                    </div>
+                    <i class="bi bi-three-dots"></i>
+                   </div>
+                  <div class="card__bottom">
+                    <p class="card__title">50.8K</p>    
+                    <p class="card__stat">28.4% <i class="bi bi-arrow-up-short"></i></p>    
+                  </div>
+                </div>
+                <div class="main-cards__card">
+                    <div class="card__top">
+                     <div class="card__left">
+                        <i class="bi bi-person-fill"></i>
+                     <span class="card__label">Monthly users</span>
+                     </div>
+                     <i class="bi bi-three-dots"></i>
+                    </div>
+                   <div class="card__bottom">
+                     <p class="card__title">23.6K</p>    
+                     <p class="card__stat1">12.6% <i class="bi bi-arrow-down-short"></i></p>    
+                   </div>
+                 </div>
+
+                 <div class="main-cards__card">
+                    <div class="card__top">
+                     <div class="card__left">
+                        <i class="bi bi-plus-circle"></i>
+                     <span class="card__label">New sign ups</span>
+                     </div>
+                     <i class="bi bi-three-dots"></i>
+                    </div>
+                   <div class="card__bottom">
+                     <p class="card__title">756</p>    
+                     <p class="card__stat">3.1% <i class="bi bi-arrow-up-short"></i></p>    
+                   </div>
+                 </div>
+
+                 <div class="main-cards__card">
+                    <div class="card__top">
+                     <div class="card__left">
+                        <i class="bi bi-star-fill"></i>
+                     <span class="card__label">Subscriptions</span>
+                     </div>
+                     <i class="bi bi-three-dots"></i>
+                    </div>
+                   <div class="card__bottom">
+                     <p class="card__title">2.3K</p>    
+                     <p class="card__stat">11.3% <i class="bi bi-arrow-up-short"></i></p>    
+                   </div>
+                 </div>
+            </div>
+
+            <div class="statistics">
+                <div class="statistics__left">
+                    <canvas id="my-canvas"></canvas>
+                </div> 
+                <div class="statistics__right">
+                    <div> 
+                        <canvas id="my-canvas2"></canvas>
+                    </div>
+                    <div> 
+                        <canvas id="my-canvas3"></canvas>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="report">
+                <div class="report-left">
+                    <canvas id="my-canvas4"></canvas>
+                    <ul class="report-left__content">
+                        <li>Desktop users <span>15,624</span></li> 
+                        <li>Phone app users <span>5,546</span></li> 
+                        <li>Laptop users <span>2,478</span></li> 
+                    </ul>
+                </div>
+
+                <div class="report-right">
+                    <table class="report-table">
+                        <thead>
+                        <tr>
+                            <th>Order</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Total</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>#1532</td>
+                            <td>Dec30, 10:06 AM</td>
+                            <td><span style="background-color: #09363B;color: #14CA74;border: 1px solid #085244; padding-bottom: 2px; padding-right: 4px;"><i class="bi bi-dot"></i>Paid</span></td>
+                            <td>$ 329.40</td>
+                        </tr>
+
+                        <tr>
+                            <td>#1531</td>
+                            <td>Dec29, 2:59 AM</td>
+                            <td><span><i class="bi bi-dot"></i>Pending</span></td>
+                            <td>$ 117.24</td>
+                        </tr>
+
+                        <tr>
+                            <td>#1530</td>
+                            <td>Dec29, 12:54 AM</td>
+                            <td><span style="background-color: #09363B;color: #14CA74;border: 1px solid #085244; padding-bottom: 2px; padding-right: 4px;"><i class="bi bi-dot"></i>Paid</td>
+                            <td>$ 52.16</td>
+                        </tr>
+
+                        <tr>
+                            <td>#1529</td>
+                            <td>Dec28, 2:32 PM</td>
+                            <td><span><i class="bi bi-dot"></i>Pending</span></td>
+                            <td>$ 350.52</td>
+                        </tr>
+
+                        <tr>
+                            <td>#1528</td>
+                            <td>Dec27, 2:20 PM</td>
+                            <td><span style="background-color: #09363B;color: #14CA74;border: 1px solid #085244; padding-bottom: 2px; padding-right: 4px;"><i class="bi bi-dot"></i>Paid</td>
+                            <td>$ 246.78</td>
+                        </tr>
+
+                        <tr>
+                            <td>#1527</td>
+                            <td>Dec26, 9:48 AM</td>
+                            <td><span><i class="bi bi-dot"></i>Pending</span></td>
+                            <td>$ 64.00</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="map">
+                <div></div>
+                <div id="chartdiv"></div>
+
+            </div>
+        </main>
+    </div>
+
+    
+
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+<script>
+    am5.ready(function() {
+    
+    var data = [
+      {
+        id: "US",
+        name: "United States",
+        value: 100
+      }, {
+        id: "GB",
+        name: "United Kingdom",
+        value: 100
+      }, {
+        id: "CN",
+        name: "China",
+        value: 100
+      }, {
+        id: "IN",
+        name: "India",
+        value: 100
+      }, {
+        id: "AU",
+        name: "Australia",
+        value: 100
+      }, {
+        id: "CA",
+        name: "Canada",
+        value: 100
+      }, {
+        id: "BR",
+        name: "Brasil",
+        value: 100
+      }, {
+        id: "ZA",
+        name: "South Africa",
+        value: 100
+      },
+      {
+        id: "U",
+        name: "Uzbekistan",
+        value: 100
+      }
+    ];
+    
+    var root = am5.Root.new("chartdiv");
+    root.setThemes([am5themes_Animated.new(root)]);
+    
+    var chart = root.container.children.push(am5map.MapChart.new(root, {}));
+    
+    var polygonSeries = chart.series.push(
+      am5map.MapPolygonSeries.new(root, {
+        geoJSON: am5geodata_worldLow,
+        exclude: ["AQ"]
+      })
+    );
+    
+    var bubbleSeries = chart.series.push(
+      am5map.MapPointSeries.new(root, {
+        valueField: "value",
+        calculateAggregates: true,
+        polygonIdField: "id"
+      })
+    );
+    
+    var circleTemplate = am5.Template.new({});
+    
+    bubbleSeries.bullets.push(function(root, series, dataItem) {
+      var container = am5.Container.new(root, {});
+    
+      var circle = container.children.push(
+        am5.Circle.new(root, {
+          radius: 20,
+          fillOpacity: 0.7,
+          fill: am5.color(0xff0000),
+          cursorOverStyle: "pointer",
+          tooltipText: `{name}: [bold]{value}[/]`
+        }, circleTemplate)
+      );
+    
+      var countryLabel = container.children.push(
+        am5.Label.new(root, {
+          text: "{name}",
+          paddingLeft: 5,
+          populateText: true,
+          fontWeight: "bold",
+          fontSize: 13,
+          centerY: am5.p50
+        })
+      );
+    
+      circle.on("radius", function(radius) {
+        countryLabel.set("x", radius);
+      })
+    
+      return am5.Bullet.new(root, {
+        sprite: container,
+        dynamic: true
+      });
+    });
+    
+    bubbleSeries.bullets.push(function(root, series, dataItem) {
+      return am5.Bullet.new(root, {
+        sprite: am5.Label.new(root, {
+          text: "{value.formatNumber('#.')}",
+          fill: am5.color(0xffffff),
+          populateText: true,
+          centerX: am5.p50,
+          centerY: am5.p50,
+          textAlign: "center"
+        }),
+        dynamic: true
+      });
+    });
+    
+    
+    
+    // minValue and maxValue must be set for the animations to work
+    bubbleSeries.set("heatRules", [
+      {
+        target: circleTemplate,
+        dataField: "value",
+        min: 10,
+        max: 50,
+        minValue: 0,
+        maxValue: 100,
+        key: "radius"
+      }
+    ]);
+    
+    bubbleSeries.data.setAll(data);
+    
+    updateData();
+    setInterval(function() {
+      updateData();
+    }, 2000)
+    
+    function updateData() {
+      for (var i = 0; i < bubbleSeries.dataItems.length; i++) {
+        bubbleSeries.data.setIndex(i, { value: Math.round(Math.random() * 100), id: data[i].id, name: data[i].name })
+      }
+    }
+    
+    
+    }); // end am5.ready()
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+       
+        const list = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        list.map((el) => {
+            let opts = {
+                animation: false,
+            }
+            if (el.hasAttribute('data-bs-content-id')) {
+                opts.content = document.getElementById(el.getAttribute('data-bs-content-id')).innerHTML;
+                opts.html = true;
+            }
+            new bootstrap.Popover(el, opts);
+        })
+    
+        const ctx = document.getElementById('my-canvas');
+        const ctx2 = document.getElementById('my-canvas2');
+        const ctx3 = document.getElementById('my-canvas3');
+        const ctx4 = document.getElementById('my-canvas4');
+
+
+        new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+      datasets: [{
+        label: '# none4',
+        data: [12, 26, 3, 57, 12, 3],
+        borderWidth: 2,
+        borderColor: 'blue',
+      },
+      {
+        label: '# count',
+        data: [42, 13, 37, 35, 17, 73],
+        borderWidth: 2,
+        borderColor: 'red',
+        color: 'yellow',
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  new Chart(ctx2, {
+    type: 'bar',
+    data: {
+      labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+      datasets: [{
+        label: '# state',
+        data: [12, 26, 3, 57, 12, 3],
+        borderWidth: 2,
+        borderColor: 'blue',
+      },
+      {
+        label: '# important',
+        data: [42, 13, 37, 35, 17, 73],
+        borderWidth: 2,
+        borderColor: 'red',
+        color: 'yellow',
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+
+  new Chart(ctx3, {
+    type: 'line',
+    data: {
+      labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+      datasets: [{
+        label: '# nothing',
+        data: [142, 26, 13, 87, 42, 3],
+        borderWidth: 2,
+        borderColor: 'blue',
+      },
+      {
+        label: '# charts',
+        data: [2, 23, 97, 55, 17, 63],
+        borderWidth: 2,
+        borderColor: 'red',
+        
+      },
+      {
+        label: '# classes',
+        data: [2, 3, 67, 55, 117,22],
+        borderWidth: 2,
+        borderColor: 'yellow',
+        
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+
+  const data = {
+  labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+  datasets: [{
+    label: '# of Votes',
+    data: [12, 19, 3, 5, 2, 3],
+    borderWidth: 1,
+    backgroundColor: ['#CB4335', '#1F618D', '#F1C40F', '#27AE60', '#884EA0', '#D35400'],
+  }]
+};
+
+
+function handleHover(evt, item, legend) {
+  legend.chart.data.datasets[0].backgroundColor.forEach((color, index, colors) => {
+    colors[index] = index === item.index || color.length === 9 ? color : color + '4D';
+  });
+  legend.chart.update();
+}
+
+
+function handleLeave(evt, item, legend) {
+  legend.chart.data.datasets[0].backgroundColor.forEach((color, index, colors) => {
+    colors[index] = color.length === 9 ? color.slice(0, -2) : color;
+  });
+  legend.chart.update();
+}
+
+
+  new Chart(ctx4, {
+    type: 'pie',
+    data: data ,
+    options: {
+        plugins: {
+      legend: {
+        onHover: handleHover,
+        onLeave: handleLeave
+      }
+    }
+    }
+  });
+        
+    </script>
+</body>
+
+</html>
